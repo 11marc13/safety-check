@@ -1,21 +1,43 @@
 /* =============
     what is cte
 ============= */
-#hero article{
+#opponent article {
   position: relative;
 
-
-  aside{
+  aside {
     position: absolute;
-    background-image: url("../img/hero-image.png");
-    background-size: cover;
-    height: 45vh;
-    bottom: 0;
-    right: 0;
-    // left: 40px;
-    left: rem-calc(40);
-    // top: rem-calc(10);
-    // top: 15;
+    // height: 35%;
+    // width: 35%;
+    height: 24vh;
+    width: 24vw;
+    opacity: 42%;
+    // bottom: rem-calc(-10);
+    top: rem-calc(-75);
+    left: rem-calc(26);
   }
 
+  #bg-opponent {
+    height: 62vh;
+    width: 62vw;
+    left: rem-calc(150);
+    top: rem-calc(-55);
+  }
+}
+
+#brain-structure {
+
+  article {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    // grid-template-rows: repeat(1,1fr);
+    // justify-content: center;
+    // align-items: center;
+    aside {
+      height: 60%;
+      width: 60%;
+
+      // margin-left: 80px;
+      // margin-right:75px;
+    }
+  }
 }
