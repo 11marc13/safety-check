@@ -1,0 +1,20 @@
+/* =============
+    hero
+============= */
+#hero article{
+  position: relative;
+
+
+  aside{
+    position: absolute;
+    background-image: url("../img/hero-image.png");
+    background-size: cover;
+    height: 45vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    // top: rem-calc(10);
+    // top: 15;
+  }
+
+}
