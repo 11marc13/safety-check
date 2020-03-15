@@ -27,29 +27,6 @@
 
 #brain-structure {
   padding-top: rem-calc(15);
-
-  #healthy-brain {
-    height: 65%;
-    width: 65%;
-    margin-left: rem-calc(70px);
-    margin-right: rem-calc(70px);
-    // opacity: 100%;
-    // article {
-    //
-    //   // display: grid;
-    //
-    //   // grid-template-columns: repeat(1,1fr);
-    //   // grid-template-rows: repeat(1,1fr);
-    //   // justify-content: center;
-    //   // align-items: center;
-    //   aside {
-    //     height: 65%;
-    //     width: 65%;
-    //
-    //   }
-    // }
-  }
-
   div {
     p {
       padding-left: rem-calc(56);
@@ -57,4 +34,28 @@
       text-align: center;
     }
   }
+  #healthy-brain {
+    height: 70%;
+    width: 70%;
+    margin-left: rem-calc(60px);
+    margin-right: rem-calc(60px);
+    opacity: 100%;
+
+  }
+
+
+}
+#damaged-brain{
+  // height: 70%;
+  // width: 70%;
+  aside{
+  background-image: url("../img/unhealthy-brain.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 50%;
+  }
+
+
+
 }

@@ -147,12 +147,12 @@ html {
 //     grid-template-columns: repeat(4, 1fr);
 // }
 
-@mixin standard-margin{
-    margin: 0px 16px;
-    @include md{
-        margin: 0px 56px;
-    }
-    @include lg{
-        margin: 0px 160px;
-    }
-}
+// @mixin standard-margin{
+//     margin: 0px 16px;
+//     @include md{
+//         margin: 0px 56px;
+//     }
+//     @include lg{
+//         margin: 0px 160px;
+//     }
+// }
