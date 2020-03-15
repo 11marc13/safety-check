@@ -24,10 +24,13 @@ h3 {
   font-family: garage-gothic, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: rem-calc(26);
+  font-size: rem-calc(32);
   line-height: rem-calc(24);
   color: $safety-red;
   text-align: center;
+  padding-bottom: rem-calc(10);
+  margin-bottom: rem-calc(0);
+  margin-top: rem-calc(25);
 }
 
 p {
@@ -38,6 +41,7 @@ p {
   line-height: rem-calc(25);
   padding-left: rem-calc(32);
   padding-right: rem-calc(32);
+  margin-top: 0;
 
   span {
     color: $safety-red;
