@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: 'DINMittelschriftStd';
+    src: url("../fonts/DINMittelschriftStd.otf") format("otf");
+}
 /* =============
     Mixins
 ============= */
