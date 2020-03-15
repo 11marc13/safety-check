@@ -1,6 +1,7 @@
 /* =============
     what is cte
 ============= */
+
 #opponent article {
   position: relative;
 
@@ -27,18 +28,26 @@
 #brain-structure {
   padding-top: rem-calc(15);
 
-  article {
-    display: grid;
-    // grid-template-columns: repeat(1,1fr);
-    // grid-template-rows: repeat(1,1fr);
-    // justify-content: center;
-    // align-items: center;
-    aside {
-      height: 65%;
-      width: 65%;
-      margin-left: rem-calc(70px);
-      // margin-right: rem-calc(70px);
-    }
+  #healthy-brain {
+    height: 65%;
+    width: 65%;
+    margin-left: rem-calc(70px);
+    margin-right: rem-calc(70px);
+    // opacity: 100%;
+    // article {
+    //
+    //   // display: grid;
+    //
+    //   // grid-template-columns: repeat(1,1fr);
+    //   // grid-template-rows: repeat(1,1fr);
+    //   // justify-content: center;
+    //   // align-items: center;
+    //   aside {
+    //     height: 65%;
+    //     width: 65%;
+    //
+    //   }
+    // }
   }
 
   div {
