@@ -1,21 +1,39 @@
 /* =============
     hero
 ============= */
-#hero article{
-  position: relative;
-  margin-bottom: rem-calc(150);
+#hero{
 
-  aside{
-    position: absolute;
-    background-image: url("../img/hero-image.png");
-    background-size: cover;
-    height: 45vh;
-    bottom: 0;
-    right: 0;
-    // left: 40px;
-    left: rem-calc(40);
-    // top: rem-calc(10);
-    // top: 15;
+  // #hero-svgs{
+  //   margin-right: 30px;
+  // }
+
+  article{
+    position: relative;
+    margin-bottom: rem-calc(150);
+    margin-left: rem-calc(20);
+
+    aside{
+      position: absolute;
+      background-image: url("../img/hero-image.png");
+      background-size: cover;
+      height: 45vh;
+      bottom: 0;
+      right: 0;
+      // left: 40px;
+      left: rem-calc(40);
+      // top: rem-calc(10);
+      // top: 15;
+    }
+
   }
+
+
+
+
+
+
+
+
+
 
 }
