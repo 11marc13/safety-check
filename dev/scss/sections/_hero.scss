@@ -2,7 +2,11 @@
     hero
 ============= */
 #hero{
-  margin-top: rem-calc(100);
+  margin-top: rem-calc(80);
+
+  div{
+    width: 110vw;
+  }
 
   article{
     position: relative;
@@ -13,10 +17,10 @@
       position: absolute;
       background-image: url("../img/hero-image.png");
       background-size: cover;
-      height: 45vh;
-      bottom: 0;
+      height: 50vh;
+      bottom: 20px;
       right: 0;
-      left: rem-calc(40);
+      left: rem-calc(30);
     }
   }
 }
