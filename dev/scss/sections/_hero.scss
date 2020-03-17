@@ -4,10 +4,6 @@
 #hero{
   margin-top: rem-calc(100);
 
-  // #hero-svgs{
-  //   margin-right: 30px;
-  // }
-
   article{
     position: relative;
     margin-bottom: rem-calc(150);
@@ -20,21 +16,7 @@
       height: 45vh;
       bottom: 0;
       right: 0;
-      // left: 40px;
       left: rem-calc(40);
-      // top: rem-calc(10);
-      // top: 15;
     }
-
   }
-
-
-
-
-
-
-
-
-
-
 }
