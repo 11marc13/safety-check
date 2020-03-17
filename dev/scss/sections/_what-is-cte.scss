@@ -1,41 +1,45 @@
 /* =============
     what is cte
 ============= */
-#what-is-cte{
+
+#what-is-cte {
   height: 60vh;
-  div{
-    // position: relative;
-    // height: 30vh;
+  width: 100%;
+  position: relative;
 
-
-    #top{
+  #our {
+    margin-left: 24px;
+    opacity: 42%;
+    #top {
       position: relative;
       z-index: 5;
-      img{
+
+      img {
         position: absolute;
-        width: 30%;
+        width: 25%;
         bottom: 20px;
         left: 5px;
       }
-
     }
 
-    #middle{
+    #middle {
       position: relative;
       z-index: 4;
-      img{
+
+      img {
         position: absolute;
-        width: 30%;
+        width: 25%;
         bottom: 15px;
       }
     }
 
-    #bottom{
+    #bottom {
       position: relative;
       z-index: 1;
-      img{
+
+      img {
         position: absolute;
-        width: 30%;
+        width: 25%;
         left: 3px;
         bottom: 10px;
       }
@@ -43,14 +47,49 @@
   }
 
 
+  #opponent {
+    // margin-left: rem-calc(124);
+    position: absolute;
+    width: 100%;
+    // right:0;
+    left: rem-calc(140);
+    top: rem-calc(30);
+    opacity: 42%;
+    #top-oppo {
+      position: relative;
+      z-index: 5;
 
+      img {
+        position: absolute;
+        width: 65%;
+        bottom: 20px;
+        left: -3px;
+      }
+    }
 
+    #middle-oppo {
+      position: relative;
+      z-index: 4;
 
+      img {
+        position: absolute;
+        width: 65%;
+        bottom: 15px;
+      }
+    }
 
+    #bottom-oppo {
+      position: relative;
+      z-index: 1;
 
-
-
-
+      img {
+        position: absolute;
+        width: 65%;
+        left: -6px;
+        bottom: 10px;
+      }
+    }
+  }
 
 
 
