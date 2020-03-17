@@ -3,25 +3,25 @@
 ============= */
 #nav-bg {
     position: fixed;
-    height: 50px;
+    height: 70%;
     width: 80vw;
     top: 0;
     right: 0;
     z-index: 150;
-    // background-color: $basically-black;
+    background-color: $basically-black;
     overflow: hidden;
 
-    // svg {
-        // transform: rotate(45deg);
-        // background-color: $blank;
+    svg {
+        transform: rotate(45deg);
+        background-color: $ice-blue;
 
-    //     circle {
-    //         fill: $charcoal;
-    //     }
-    // }
-    // >div{
-    //     // border-radius: 50%;
-    //     height: 100%;
-    //     width: 100%;
-    // }
+        circle {
+            fill: $ice-blue;
+        }
+    }
+    >div{
+        // border-radius: 50%;
+        height: 100%;
+        width: 100%;
+    }
 }
