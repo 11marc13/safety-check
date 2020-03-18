@@ -100,32 +100,36 @@
     grid-template-areas: "mem dif" "imp agg" "bal dem";
     padding-top: rem-calc(40);
     text-align: center;
-    p{
-      padding-top: rem-calc(7)
+
+    p {
+      padding-top: rem-calc(7);
     }
 
-    #mem-loss{
+    #mem-loss {
       grid-area: mem;
       padding-bottom: rem-calc(40);
     }
-    #dif-control{
+
+    #dif-control {
       grid-area: dif;
-      // padding-bottom: rem-calc(40);
     }
-    #impaired{
+
+    #impaired {
       grid-area: imp;
       padding-bottom: rem-calc(40);
     }
-    #aggro{
+
+    #aggro {
       grid-area: agg;
     }
-    #balance{
+
+    #balance {
       grid-area: bal;
     }
-    #dementia{
+
+    #dementia {
       grid-area: dem;
       margin-top: rem-calc(-21);
     }
-
   }
 }
