@@ -1,13 +1,15 @@
-#line-up{
+#line-up {
   margin-bottom: 280px;
-  #line{
-    opacity: 50%;
 
-    #top-line{
+  #line {
+    opacity: 50%;
+    z-index: 6;
+
+    #top-line {
       position: relative;
       z-index: 5;
 
-      h1{
+      h1 {
         position: absolute;
         width: 25%;
         left: rem-calc(65);
@@ -16,11 +18,11 @@
       }
     }
 
-    #middle-line{
+    #middle-line {
       position: relative;
       z-index: 4;
 
-      h1{
+      h1 {
         position: absolute;
         width: 25%;
         left: rem-calc(60);
@@ -28,11 +30,11 @@
       }
     }
 
-    #bottom-line{
+    #bottom-line {
       position: relative;
       z-index: 3;
 
-      h1{
+      h1 {
         position: absolute;
         width: 25%;
         left: rem-calc(68);
@@ -42,15 +44,15 @@
     }
   }
 
-
-
-  #up{
+  #up {
     opacity: 50%;
-    #top-up{
+    z-index: 1;
+
+    #top-up {
       position: relative;
       z-index: 5;
 
-      h1{
+      h1 {
         position: absolute;
         // width: 25%;
         left: rem-calc(225);
@@ -59,11 +61,11 @@
       }
     }
 
-    #middle-up{
+    #middle-up {
       position: relative;
       z-index: 4;
 
-      h1{
+      h1 {
         position: absolute;
         // width: 25%;
         left: rem-calc(218);
@@ -72,11 +74,12 @@
         // opacity: 65%;
       }
     }
-    #bottom-up{
+
+    #bottom-up {
       position: relative;
       z-index: 3;
 
-      h1{
+      h1 {
         position: absolute;
         // width: 25%;
         left: rem-calc(223);
@@ -84,26 +87,45 @@
         color: $header-light;
       }
     }
-
-
-
-
-
-
   }
 
+  h2 {
+    padding-top: rem-calc(90);
+    z-index: 7;
+  }
 
+  #symptoms {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "mem dif" "imp agg" "bal dem";
+    padding-top: rem-calc(40);
+    text-align: center;
+    p{
+      padding-top: rem-calc(7)
+    }
 
+    #mem-loss{
+      grid-area: mem;
+      padding-bottom: rem-calc(40);
+    }
+    #dif-control{
+      grid-area: dif;
+      // padding-bottom: rem-calc(40);
+    }
+    #impaired{
+      grid-area: imp;
+      padding-bottom: rem-calc(40);
+    }
+    #aggro{
+      grid-area: agg;
+    }
+    #balance{
+      grid-area: bal;
+    }
+    #dementia{
+      grid-area: dem;
+      margin-top: rem-calc(-21);
+    }
 
-
-
-
-
-
-
-
-
-
-
-
+  }
 }
