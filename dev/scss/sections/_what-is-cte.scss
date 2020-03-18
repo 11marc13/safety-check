@@ -7,18 +7,22 @@
   position: relative;
 
   #our {
-    margin-left: 16px;
-    opacity: 42%;
+    position: absolute;
+    width: 100%;
+    opacity: 50%;
+    left: rem-calc(10);
+
 
     #top {
       position: relative;
       z-index: 5;
 
-      img {
+      h1 {
         position: absolute;
         width: 25%;
         bottom: 20px;
         left: 5px;
+        color: $header-blue;
       }
     }
 
@@ -26,10 +30,11 @@
       position: relative;
       z-index: 4;
 
-      img {
+      h1 {
         position: absolute;
         width: 25%;
         bottom: 15px;
+        color: $header-red;
       }
     }
 
@@ -37,11 +42,12 @@
       position: relative;
       z-index: 1;
 
-      img {
+      h1 {
         position: absolute;
         width: 25%;
         left: 3px;
         bottom: 10px;
+        color: $header-light;
       }
     }
   }
@@ -51,20 +57,21 @@
     position: absolute;
     width: 100%;
     // right:0;
-    left: rem-calc(140);
-    top: rem-calc(30);
-    opacity: 42%;
-    z-index: 1;
+    left: rem-calc(100);
+    top: rem-calc(90);
+    opacity: 50%;
+    z-index: -1;
 
     #top-oppo {
       position: relative;
       z-index: 3;
 
-      img {
+      h1 {
         position: absolute;
         width: 65%;
         bottom: 20px;
         left: -3px;
+        color: $header-blue;
       }
     }
 
@@ -72,10 +79,11 @@
       position: relative;
       z-index: 2;
 
-      img {
+      h1 {
         position: absolute;
         width: 65%;
         bottom: 15px;
+        color: $header-red;
       }
     }
 
@@ -83,16 +91,18 @@
       position: relative;
       z-index: 1;
 
-      img {
+      h1 {
         position: absolute;
         width: 65%;
         left: -6px;
         bottom: 10px;
+        color: $header-light;
       }
     }
   }
 
   #copy {
     padding-top: rem-calc(10);
+    // z-index: 10;
   }
 }
