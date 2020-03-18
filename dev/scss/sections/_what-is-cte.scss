@@ -1,15 +1,15 @@
 /* =============
     what is cte
 ============= */
-
 #what-is-cte {
-  height: 60vh;
+  height: 47vh;
   width: 100%;
   position: relative;
 
   #our {
-    margin-left: 24px;
+    margin-left: 16px;
     opacity: 42%;
+
     #top {
       position: relative;
       z-index: 5;
@@ -46,7 +46,6 @@
     }
   }
 
-
   #opponent {
     // margin-left: rem-calc(124);
     position: absolute;
@@ -55,9 +54,11 @@
     left: rem-calc(140);
     top: rem-calc(30);
     opacity: 42%;
+    z-index: 1;
+
     #top-oppo {
       position: relative;
-      z-index: 5;
+      z-index: 3;
 
       img {
         position: absolute;
@@ -69,7 +70,7 @@
 
     #middle-oppo {
       position: relative;
-      z-index: 4;
+      z-index: 2;
 
       img {
         position: absolute;
@@ -91,16 +92,7 @@
     }
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
+  #copy {
+    padding-top: rem-calc(10);
+  }
 }
