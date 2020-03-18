@@ -1,17 +1,74 @@
-#brains{
-  #healthy{
+#brains {
+  #healthy {
     margin-bottom: rem-calc(-40);
-    img{
+
+    img {
       transform: scale(.7);
     }
   }
 
-  #brain-text{
-
-    p{
-    margin-left: rem-calc(30);
-    margin-right: rem-calc(30);
-    text-align: center;
+  #brain-text {
+    p {
+      margin-left: rem-calc(30);
+      margin-right: rem-calc(30);
+      text-align: center;
     }
   }
+
+  #brain-blobs {
+    margin-bottom: rem-calc(50);
+
+    #blob-1 {
+      position: relative;
+      img {
+        position: absolute;
+        width: 37%;
+        bottom: -20px;
+        left: 40px;
+      }
+    }
+    #blob-2 {
+      position: relative;
+      img {
+        position: absolute;
+        width: 43%;
+        bottom: -40px;
+        left: 100px;
+        transform: rotate(215deg);
+      }
+    }
+    #blob-3 {
+      position: relative;
+      img {
+        position: absolute;
+        width: 30%;
+        bottom: -40px;
+        left: 150px;
+        transform: rotate(35deg);
+      }
+    }
+    #blob-4 {
+      position: relative;
+      img {
+        position: absolute;
+        width: 46%;
+        bottom: -20px;
+        left: 190px;
+        transform: rotate(157deg);
+      }
+    }
+  }
+
+
+  #damaged {
+    margin-bottom: rem-calc(-40);
+
+    img {
+      transform: scale(.7);
+    }
+  }
+
+
+
+
 }
