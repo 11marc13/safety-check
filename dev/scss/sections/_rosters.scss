@@ -1,0 +1,85 @@
+
+#accepted article {
+  padding-left: 20px;
+}
+
+#accepted h2 {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#accepted ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-left: 30px;
+}
+
+#accepted li {
+  font-family: light;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: circle;
+}
+
+.accordion {
+  background-color: #ffe5e6;
+  /* color: #444; */
+  cursor: pointer;
+  /* padding: 18px; */
+  width: 100%;
+  text-align: left;
+  border-bottom: solid black 2px;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.active, .accordion:hover {
+  background-color: #e23c2c;
+}
+
+.active, .accordion h2:hover {
+  color: white;
+}
+
+.panel {
+  padding: 0;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion h2:after {
+  color: #e23c2c;
+}
+
+/*****************
+  4. unaccepted items
+*******************/
+
+#unaccepted article {
+  padding-left: 20px;
+}
+
+#unaccepted h2 {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#unaccepted ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-left: 30px;
+}
+
+#unaccepted li {
+  font-family: light;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  list-style: circle;
+}

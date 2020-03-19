@@ -1,0 +1,35 @@
+#diagnose{
+  p{
+    padding-top: rem-calc(10);
+  }
+
+  #brain-blobs {
+    margin-bottom: rem-calc(50);
+
+    #blob-5 {
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 65%;
+        bottom: 150px;
+        left: rem-calc(-10);
+        // top: rem-calc(0);
+        transform: rotate(-75deg);
+      }
+    }
+
+    #blob-6 {
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 50%;
+        bottom: 10px;
+        left: 100px;
+        transform: rotate(165deg);
+      }
+    }
+  }
+
+}
