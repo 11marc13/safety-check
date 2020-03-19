@@ -97,7 +97,10 @@
   #symptoms {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-areas: "mem dif" "imp agg" "bal dem";
+    grid-template-areas:
+     "mem dif"
+     "imp agg"
+     "bal dem";
     padding-top: rem-calc(40);
     text-align: center;
 
