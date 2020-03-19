@@ -1,5 +1,8 @@
 #rosters{
   margin-bottom: rem-calc(300);
+  h2{
+    padding-bottom: rem-calc(10);
+  }
 
   #our-3 {
     opacity: 50%;
@@ -89,6 +92,82 @@
     }
   }
 
+  #east{
+    margin-left: 30px;
+    margin-right: 30px;
+    h3 {
+      text-align: left;
+      padding-left: rem-calc(10);
+      // padding-top: rem-calc(11);
+      padding-bottom: rem-calc(21);
+      color: $header-blue;
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      margin-left: 30px;
+      padding-top: 60px;
+      li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        list-style: none;
+      }
+    }
+
+
+
+    .accordion {
+      background-color: $safety-red;
+      cursor: pointer;
+      width: 100%;
+      text-align: left;
+      border: solid $safety-red 0px;
+      outline: none;
+      transition: 1s;
+      border-radius: 20px;
+      // margin-left: rem-calc(30);
+      // margin-right: rem-calc(30);
+
+    }
+
+    // .active, .accordion:hover {
+    //   background-color: $safety-red;
+    // }
+    //
+    // .active, .accordion h3:hover {
+    //   color: $ice-blue;
+    // }
+
+    .panel {
+      // padding: 0;
+      background-color: $header-blue;
+      max-height: 0;
+      // overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      border-radius: 20px;
+      padding-bottom: 10px;
+      margin-top: -50px;
+    }
+
+    .accordion h3:after {
+      color: #e23c2c;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
 
 
 
@@ -160,64 +239,8 @@
 
 
 
+//
 
-
-//
-// #accepted article {
-//   padding-left: 20px;
-// }
-//
-// #accepted h2 {
-//   padding-top: 10px;
-//   padding-left: 10px;
-// }
-//
-// #accepted ul {
-//   display: grid;
-//   grid-template-columns: repeat(2, 1fr);
-//   grid-gap: 10px;
-//   margin-left: 30px;
-// }
-//
-// #accepted li {
-//   font-family: light;
-//   margin-top: 20px;
-//   margin-bottom: 20px;
-//   list-style: circle;
-// }
-//
-// .accordion {
-//   background-color: #ffe5e6;
-//   cursor: pointer;
-//   width: 100%;
-//   text-align: left;
-//   border-bottom: solid black 2px;
-//   outline: none;
-//   transition: 0.4s;
-//   border-radius: 0;
-//   margin: 0;
-//   padding: 0;
-// }
-//
-// .active, .accordion:hover {
-//   background-color: #e23c2c;
-// }
-//
-// .active, .accordion h2:hover {
-//   color: white;
-// }
-//
-// .panel {
-//   padding: 0;
-//   background-color: white;
-//   max-height: 0;
-//   overflow: hidden;
-//   transition: max-height 0.2s ease-out;
-// }
-//
-// .accordion h2:after {
-//   color: #e23c2c;
-// }
 
 /*****************
   4. unaccepted items

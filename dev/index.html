@@ -656,23 +656,31 @@
         <h2> Team Rosters </h2>
       </div>
 
-      <button class="accordion"><h2> Team East </h2></button>
+    <div id="east">
+      <button class="accordion"><h3> Team East </h3></button>
       <div class="panel">
         <ul>
           <li> F Anthony Duclair </li>
           <li> F Jack Eichel </li>
-          <li> F Jonathan Huberdeau </li>
+          <li> F Warren Foegele </li>
           <li> F Auston Matthews</li>
           <li> F David Pastrnak</li>
           <li> F Mathew Barzal</li>
           <li> F Kyle Palmieri</li>
           <li> F Artemi Panarin</li>
           <li> F Travis Konecny</li>
-          <li>Household items</li>
-          <li>Jewelry</li>
-          <li>Sporting Goods</li>
+          <li> F Claude Giroux</li>
+          <li> D John Carlson</li>
+          <li> D Dougie Hamilton</li>
+          <li> D Seth Jones</li>
+          <li> D Kris Letang</li>
+          <li> D Victor Hedman</li>
+          <li> D Shea Weber</li>
+          <li> G Frederik Andersen</li>
+          <li> G Tuukka Rask</li>
         </ul>
       </div>
+    </div>
 
 
 
@@ -704,6 +712,36 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.4/gsap.min.js"></script>
 
   <script src="js/scripts-min.js"></script>
+
+
+  <style>
+    .panel {
+      padding: 0;
+      /* background-color: white; */
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+  </style>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+
+
 </body>
 
 </html>
