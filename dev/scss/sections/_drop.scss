@@ -1,94 +1,93 @@
-#strategy {
-  margin-bottom: rem-calc(175);
-  p{
+#puck-drop {
+  margin-bottom: rem-calc(300);
+
+  p {
     padding-top: rem-calc(10);
   }
 
-  #our-2 {
+  #puck {
     opacity: 50%;
     z-index: 6;
 
-    #top-our-2 {
+    #top-puck {
       position: relative;
       z-index: 5;
 
       h1 {
         position: absolute;
         width: 25%;
-        left: rem-calc(25);
-        top: rem-calc(-110);
+        left: rem-calc(50);
+        top: rem-calc(-120);
         color: $header-blue;
       }
     }
 
-    #middle-our-2 {
+    #middle-puck {
       position: relative;
       z-index: 4;
 
       h1 {
         position: absolute;
         width: 25%;
-        left: rem-calc(29);
-        top: rem-calc(-105);
+        left: rem-calc(53);
+        top: rem-calc(-117);
         color: $header-red;
       }
     }
 
-    #bottom-our-2 {
+    #bottom-puck {
       position: relative;
       z-index: 3;
 
       h1 {
         position: absolute;
         width: 25%;
-        left: rem-calc(26);
-        top: rem-calc(-100);
+        left: rem-calc(47);
+        top: rem-calc(-114);
         color: $header-light;
       }
     }
   }
 
-
-
-  #strat {
+  #drop {
     opacity: 50%;
     z-index: 6;
 
-    #top-strat {
+    #top-drop {
       position: relative;
       z-index: 5;
 
       h1 {
         position: absolute;
         width: 25%;
-        left: rem-calc(147);
-        top: rem-calc(-95);
+        left: rem-calc(210);
+        top: rem-calc(-100);
         color: $header-blue;
       }
     }
 
-    #middle-strat {
+    #middle-drop {
       position: relative;
       z-index: 4;
 
       h1 {
         position: absolute;
         width: 25%;
-        left: rem-calc(150);
-        top: rem-calc(-90);
+        left: rem-calc(205);
+        top: rem-calc(-97);
         color: $header-red;
       }
     }
 
-    #bottom-strat {
+    #bottom-drop {
       position: relative;
       z-index: 3;
 
       h1 {
         position: absolute;
         width: 25%;
-        left: rem-calc(148);
-        top: rem-calc(-85);
+        left: rem-calc(208);
+        top: rem-calc(-94);
         color: $header-light;
       }
     }
@@ -97,33 +96,29 @@
   #brain-blobs {
     margin-bottom: rem-calc(50);
 
-    #blob-6 {
+    #blob-8 {
       position: relative;
 
       img {
         position: absolute;
-        width: 60%;
+        width: 55%;
         bottom: 50px;
         left: rem-calc(30);
         // top: rem-calc(0);
-        transform: rotate(75deg);
+        transform: rotate(275deg);
       }
     }
 
-    #blob-7 {
+    #blob-9 {
       position: relative;
 
       img {
         position: absolute;
-        width: 50%;
+        width: 40%;
         bottom: rem-calc(0);
-        left: rem-calc(190);
-        transform: rotate(-50deg);
+        left: rem-calc(160);
+        transform: rotate(110deg);
       }
     }
   }
-
-
-
-
 }
