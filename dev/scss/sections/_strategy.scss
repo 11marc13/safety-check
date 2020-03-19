@@ -1,0 +1,126 @@
+#strategy {
+  margin-bottom: rem-calc(300);
+
+  #our-2 {
+    opacity: 50%;
+    z-index: 6;
+
+    #top-our-2 {
+      position: relative;
+      z-index: 5;
+
+      h1 {
+        position: absolute;
+        width: 25%;
+        left: rem-calc(25);
+        top: rem-calc(-110);
+        color: $header-blue;
+      }
+    }
+
+    #middle-our-2 {
+      position: relative;
+      z-index: 4;
+
+      h1 {
+        position: absolute;
+        width: 25%;
+        left: rem-calc(29);
+        top: rem-calc(-105);
+        color: $header-red;
+      }
+    }
+
+    #bottom-our-2 {
+      position: relative;
+      z-index: 3;
+
+      h1 {
+        position: absolute;
+        width: 25%;
+        left: rem-calc(26);
+        top: rem-calc(-100);
+        color: $header-light;
+      }
+    }
+  }
+
+
+
+  #strat {
+    opacity: 50%;
+    z-index: 6;
+
+    #top-strat {
+      position: relative;
+      z-index: 5;
+
+      h1 {
+        position: absolute;
+        width: 25%;
+        left: rem-calc(147);
+        top: rem-calc(-95);
+        color: $header-blue;
+      }
+    }
+
+    #middle-strat {
+      position: relative;
+      z-index: 4;
+
+      h1 {
+        position: absolute;
+        width: 25%;
+        left: rem-calc(150);
+        top: rem-calc(-90);
+        color: $header-red;
+      }
+    }
+
+    #bottom-strat {
+      position: relative;
+      z-index: 3;
+
+      h1 {
+        position: absolute;
+        width: 25%;
+        left: rem-calc(148);
+        top: rem-calc(-85);
+        color: $header-light;
+      }
+    }
+  }
+
+  #brain-blobs {
+    margin-bottom: rem-calc(50);
+
+    #blob-6 {
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 60%;
+        bottom: 50px;
+        left: rem-calc(30);
+        // top: rem-calc(0);
+        transform: rotate(75deg);
+      }
+    }
+
+    #blob-7 {
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 50%;
+        bottom: rem-calc(0);
+        left: rem-calc(190);
+        transform: rotate(-50deg);
+      }
+    }
+  }
+
+
+
+
+}
