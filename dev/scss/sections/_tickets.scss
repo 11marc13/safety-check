@@ -1,0 +1,13 @@
+#tickets {
+  margin-bottom: rem-calc(200);
+
+  p {
+    text-align: center;
+    padding-top: rem-calc(10);
+
+    a {
+      text-decoration: none;
+      color: $header-blue;
+    }
+  }
+}
