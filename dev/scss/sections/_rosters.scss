@@ -95,6 +95,7 @@
   #east{
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 50px;
     h3 {
       text-align: left;
       padding-left: rem-calc(10);
@@ -102,22 +103,6 @@
       padding-bottom: rem-calc(21);
       color: $header-blue;
     }
-
-    ul {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 10px;
-      margin-left: 30px;
-      padding-top: 60px;
-      li {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        list-style: none;
-      }
-    }
-
-
-
     .accordion {
       background-color: $safety-red;
       cursor: pointer;
@@ -127,9 +112,6 @@
       outline: none;
       transition: 1s;
       border-radius: 20px;
-      // margin-left: rem-calc(30);
-      // margin-right: rem-calc(30);
-
     }
 
     // .active, .accordion:hover {
@@ -149,23 +131,83 @@
       border-radius: 20px;
       padding-bottom: 10px;
       margin-top: -50px;
+
+      ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-left: 30px;
+        padding-top: 60px;
+        li {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          list-style: none;
+        }
+      }
     }
 
-    .accordion h3:after {
-      color: #e23c2c;
+    // .accordion h3:after {
+    //   color: #e23c2c;
+    // }
+  }
+
+  #west{
+    margin-left: 30px;
+    margin-right: 30px;
+    h3 {
+      text-align: left;
+      padding-left: rem-calc(10);
+      // padding-top: rem-calc(11);
+      padding-bottom: rem-calc(21);
+      color: $safety-red;
+    }
+    .accordion {
+      background-color: $header-blue;
+      cursor: pointer;
+      width: 100%;
+      text-align: left;
+      border: solid $safety-red 0px;
+      outline: none;
+      transition: 1s;
+      border-radius: 20px;
     }
 
+    // .active, .accordion:hover {
+    //   background-color: $safety-red;
+    // }
+    //
+    // .active, .accordion h3:hover {
+    //   color: $ice-blue;
+    // }
 
+    .panel {
+      // padding: 0;
+      background-color: $safety-red;
+      max-height: 0;
+      // overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      border-radius: 20px;
+      padding-bottom: 10px;
+      margin-top: -50px;
 
+      ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-left: 30px;
+        padding-top: 60px;
+        li {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          list-style: none;
+          color: white;
+        }
+      }
+    }
 
-
-
-
-
-
-
-
-
+    // .accordion h3:after {
+    //   color: #e23c2c;
+    // }
   }
 
 
