@@ -206,6 +206,7 @@
 
   #east-players{
     position: relative;
+    z-index: 9;
 
     #e-lowest-opacity{
       display: none;
@@ -225,6 +226,7 @@
 
   #west-players{
     position: relative;
+    z-index: 10;
 
     #w-lowest-opacity{
       display: none;
@@ -239,6 +241,47 @@
       width: 110%;
       top: rem-calc(180);
       left: rem-calc(-110);
+    }
+  }
+
+  #brain-blobs {
+    margin-bottom: rem-calc(50);
+
+    #blob-10 {
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 60%;
+        bottom: 50px;
+        left: rem-calc(-55);
+        top: rem-calc(300);
+        transform: rotate(150deg);
+      }
+    }
+
+    #blob-11 {
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 70%;
+        top: rem-calc(70);
+        left: rem-calc(160);
+        transform: rotate(-80deg);
+      }
+    }
+
+    #blob-12 {
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 55%;
+        top: rem-calc(260);
+        left: rem-calc(130);
+        transform: rotate(20deg);
+      }
     }
   }
 
