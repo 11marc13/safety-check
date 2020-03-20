@@ -1,5 +1,5 @@
 #rosters{
-  margin-bottom: rem-calc(300);
+  margin-bottom: rem-calc(600);
   h2{
     padding-bottom: rem-calc(10);
   }
@@ -205,6 +205,7 @@
 
 
   #east-players{
+    position: relative;
 
     #e-lowest-opacity{
       display: none;
@@ -214,7 +215,31 @@
       display: none;
     }
 
+    #e-full-opacity{
+      position: absolute;
+      width: 90%;
+      top: rem-calc(80);
+      left: rem-calc(125);
+    }
+  }
 
+  #west-players{
+    position: relative;
+
+    #w-lowest-opacity{
+      display: none;
+    }
+
+    #w-mid-opacity{
+      display: none;
+    }
+
+    #w-full-opacity{
+      position: absolute;
+      width: 110%;
+      top: rem-calc(180);
+      left: rem-calc(-110);
+    }
   }
 
 
@@ -254,66 +279,4 @@
 
 
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
-
-
-/*****************
-  4. unaccepted items
-*******************/
-
-// #unaccepted article {
-//   padding-left: 20px;
-// }
-//
-// #unaccepted h2 {
-//   padding-top: 10px;
-//   padding-left: 10px;
-// }
-//
-// #unaccepted ul {
-//   display: grid;
-//   grid-template-columns: repeat(2, 1fr);
-//   grid-gap: 10px;
-//   margin-left: 30px;
-// }
-//
-// #unaccepted li {
-//   font-family: light;
-//   margin-bottom: 20px;
-//   margin-top: 20px;
-//   list-style: circle;
-// }
