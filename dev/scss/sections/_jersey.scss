@@ -8,6 +8,7 @@
   #west-blank{
     text-align: center;
     margin-bottom: rem-calc(48);
+    z-index: 10;
 
     img{
       width: 90%;
@@ -45,6 +46,7 @@
   #east-blank{
     text-align: center;
     margin-bottom: rem-calc(48);
+    z-index: 10;
 
     img{
       width: 90%;
@@ -81,7 +83,7 @@
   #west-back{
     text-align: center;
     margin-bottom: rem-calc(48);
-
+    z-index: 10;
     img{
       width: 90%;
       margin-bottom: rem-calc(5);
@@ -117,7 +119,7 @@
   #east-back{
     text-align: center;
     margin-bottom: rem-calc(48);
-
+    z-index: 10;
     img{
       width: 90%;
       margin-bottom: rem-calc(5);
@@ -144,19 +146,84 @@
 
         }
         a.button:hover{
-          background-color: $white;
+          background-color: $header-blue;
+          border: 0px solid;
         }
       }
     }
   }
 
 
+  #brain-blobs {
+    margin-bottom: rem-calc(50);
 
 
+    #blob-13 {
+      position: relative;
 
 
+      img {
+        position: absolute;
+        width: 75%;
+        bottom: 50px;
+        left: rem-calc(130);
+        bottom: rem-calc(1050);
+        transform: rotate(170deg);
+        z-index: -1;
 
+      }
+    }
 
+    #blob-14 {
+      position: relative;
 
+      img {
+        position: absolute;
+        width: 60%;
+        bottom: rem-calc(820);
+        left: rem-calc(30);
+        transform: rotate(100deg);
+        z-index: -1;
+      }
+    }
 
+    #blob-15 {
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 80%;
+        bottom: rem-calc(550);
+        left: rem-calc(0);
+        transform: rotate(-30deg);
+        z-index: -1;
+      }
+    }
+
+    #blob-16 {
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 65%;
+        bottom: rem-calc(300);
+        left: rem-calc(60);
+        transform: rotate(130deg);
+        z-index: -1;
+      }
+    }
+
+    #blob-17 {
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 55%;
+        bottom: rem-calc(140);
+        left: rem-calc(180);
+        transform: rotate(-100deg);
+        z-index: -1;
+      }
+    }
+  }
 }
