@@ -1,0 +1,44 @@
+footer{
+  background-color: $safety-red;
+  height: 80vh;
+
+  h6{
+
+  }
+
+  #logos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "left right";
+    // grid-template-areas: ". footer .";
+    justify-content: center;
+    align-items: center;
+    margin-bottom: rem-calc(-40);
+
+
+    #safety-check-logo{
+      grid-area: left;
+
+
+      img{
+        width: 68%;
+        padding-left: 53px;
+      }
+    }
+    #bu-logo{
+      grid-area: right;
+      img{
+        width: 50%;
+        padding-left: 30px;
+      }
+    }
+
+
+
+
+
+
+
+  }
+
+}

@@ -50,6 +50,21 @@ h5{
   margin: 15px 0;
 }
 
+h6{
+  font-family: garage-gothic,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: rem-calc(30);
+  line-height: rem-calc(35);
+  color: $white;
+  text-align: center;
+  padding-bottom: rem-calc(0);
+  padding-top: rem-calc(23);
+  margin-bottom: rem-calc(30);
+  // margin-left: rem-calc(15);
+  // margin-right: rem-calc(15);
+}
+
 p {
   font-family: "DINMittelschriftStd", sans-serif;
   font-weight: 550;
