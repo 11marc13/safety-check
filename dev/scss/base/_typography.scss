@@ -34,6 +34,22 @@ h3 {
   margin-top: rem-calc(25);
 }
 
+h4{
+  font-family: "DINMittelschriftStd", sans-serif;
+  font-weight: 500;
+  color: $safety-red;
+  font-size: rem-calc(25);
+  margin: 15px;
+}
+
+h5{
+  font-family: "DINMittelschriftStd", sans-serif;
+  font-weight: 550;
+  color: $safety-red;
+  font-size: rem-calc(20);
+  margin: 15px 0;
+}
+
 p {
   font-family: "DINMittelschriftStd", sans-serif;
   font-weight: 550;
