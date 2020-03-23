@@ -1,10 +1,6 @@
 footer{
   background-color: $safety-red;
-  height: 80vh;
-
-  h6{
-
-  }
+  height: 65vh;
 
   #logos{
     display: grid;
@@ -32,13 +28,30 @@ footer{
         padding-left: 30px;
       }
     }
+  }
 
+  #social-icons{
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    margin-left: rem-calc(95);
+    margin-right: rem-calc(95);
 
-
-
+    i{
+      color: $header-blue;
+      font-size: rem-calc(45);
+    }
 
 
 
   }
+
+
+
+
+
+
+
+
 
 }
