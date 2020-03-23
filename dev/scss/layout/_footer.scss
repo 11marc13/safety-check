@@ -3,43 +3,39 @@ footer{
   height: 65vh;
 
   #logos{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "left right";
-    // grid-template-areas: ". footer .";
-    justify-content: center;
-    align-items: center;
-    margin-bottom: rem-calc(-40);
+    display: flex;
+    justify-content: space-between;
+    margin-left: rem-calc(65);
+    margin-right: rem-calc(65);
+    height: 60vh;
+    margin-bottom: rem-calc(-400);
 
-
-    #safety-check-logo{
-      grid-area: left;
-
-
-      img{
-        width: 68%;
-        padding-left: 53px;
+      #safety-check-logo{
+        img{
+          height: 17%;
+        }
       }
-    }
-    #bu-logo{
-      grid-area: right;
-      img{
-        width: 50%;
-        padding-left: 30px;
+      #bu-logo{
+        img{
+          height: 17%;
+        }
       }
-    }
   }
+
 
   #social-icons{
     display: flex;
     justify-content: space-between;
-    // align-items: center;
     margin-left: rem-calc(95);
     margin-right: rem-calc(95);
 
     i{
       color: $header-blue;
       font-size: rem-calc(45);
+
+      // i:hover{
+      //   color:$basically-black;
+      // }
     }
 
 
