@@ -1,8 +1,8 @@
-footer{
+footer {
   background-color: $safety-red;
   height: 65vh;
 
-  #logos{
+  #logos {
     display: flex;
     justify-content: space-between;
     margin-left: rem-calc(65);
@@ -10,44 +10,31 @@ footer{
     height: 60vh;
     margin-bottom: rem-calc(-400);
 
-      #safety-check-logo{
-        img{
-          height: 17%;
-        }
+    #safety-check-logo {
+      img {
+        height: 17%;
       }
-      #bu-logo{
-        img{
-          height: 17%;
-        }
+    }
+
+    #bu-logo {
+      img {
+        height: 17%;
       }
+    }
   }
 
-
-  #social-icons{
+  #social-icons {
     display: flex;
     justify-content: space-between;
     margin-left: rem-calc(95);
     margin-right: rem-calc(95);
 
-    i{
+    i {
       color: $header-blue;
       font-size: rem-calc(45);
-
       // i:hover{
       //   color:$basically-black;
       // }
     }
-
-
-
   }
-
-
-
-
-
-
-
-
-
 }
