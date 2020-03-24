@@ -1,8 +1,8 @@
-// @prepros-append "navigation.js";
+// @prepros-prepend "navigation.js";
 
-// @prepros-append "burger/burger.js";
-// @prepros-append "burger/burger-mouseenter.js";
-// @prepros-append "burger/burger-click.js";
-// @prepros-append "burger/burger-mouseleave.js";
+// @prepros-prepend "burger/burger.js";
+// @prepros-prepend "burger/burger-mouseenter.js";
+// @prepros-prepend "burger/burger-click.js";
+// @prepros-prepend "burger/burger-mouseleave.js";
 
-// @prepros-append "roster-list.js";
+// @prepros-prepend "roster-list.js";

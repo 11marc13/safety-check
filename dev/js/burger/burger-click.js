@@ -3,7 +3,7 @@ lineToX.to("#burger-container",{duration:burgerSpeed, rotate:-90},"create-x")
 .to("#top-line",{duration:burgerSpeed, y: 7.75, rotate:45},"create-x")
 .to("#middle-line",{duration:burgerSpeed, alpha:0},"create-x")
 .to("#bottom-line",{duration:burgerSpeed, y: -7.75, rotate:-45},"create-x");
-.from("#burger-outline",{duration:0.5, alpha:0},"create-x");
+// .from("#burger-outline",{duration:0.5, alpha:0},"create-x");
 
 var lineToLines = gsap.timeline({paused:true});
 lineToLines.to("#top-line",{duration:burgerSpeed, y:0},"move-lines")
@@ -23,7 +23,7 @@ $('#burger-container').on("click", burgerClicked);
 function burgerClicked(){
     console.log("click");
     if(canYouSeeNav === false){
-        gsap.set("#burger-outline",{duration:burgerSpeed, alpha:1});
+        // gsap.set("#burger-outline",{duration:burgerSpeed, alpha:1});
         lineToX.invalidate().restart();
         staggerNav.invalidate().restart();
         linesToLine.invalidate().restart();
@@ -37,7 +37,7 @@ function burgerClicked(){
 
         canYouSeeNav = true;
     }else{
-        gsap.to("#burger-outline",{duration:burgerSpeed, alpha:0});
+        // gsap.to("#burger-outline",{duration:burgerSpeed, alpha:0});
         lineToLines.invalidate().restart();
         // staggerNav.invalidate().restart();
         // lineToX.invalidate().restart();
