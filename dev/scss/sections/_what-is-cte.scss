@@ -6,6 +6,10 @@
   width: 100%;
   position: relative;
 
+  @include md{
+    margin-bottom: rem-calc(-100);
+  }
+
   #our {
     position: absolute;
     width: 100%;
