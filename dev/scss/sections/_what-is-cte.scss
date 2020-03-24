@@ -10,7 +10,12 @@
     position: absolute;
     width: 100%;
     opacity: 50%;
-    left: rem-calc(10);
+    left: rem-calc(40);
+
+    @include md{
+      left: rem-calc(80);
+      top: rem-calc(60);
+    }
 
 
     #top {
@@ -62,6 +67,10 @@
     opacity: 50%;
     z-index: -1;
 
+    @include md{
+      left: rem-calc(300);
+    }
+
     #top-oppo {
       position: relative;
       z-index: 3;
@@ -102,7 +111,7 @@
   }
 
   #copy {
-    padding-top: rem-calc(10);
+    padding-top: rem-calc(15);
     // z-index: 10;
   }
 }

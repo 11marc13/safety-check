@@ -3,6 +3,9 @@
 ============= */
 #hero{
   margin-top: rem-calc(80);
+  @include md{
+    margin-bottom: rem-calc(250);
+  }
 
   div{
     width: 110vw;
