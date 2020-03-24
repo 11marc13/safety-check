@@ -6,6 +6,9 @@
 
   div{
     width: 110vw;
+    @include md{
+      width: 100vw;
+    }
   }
 
   article{
@@ -21,6 +24,13 @@
       bottom: 20px;
       right: 0;
       left: rem-calc(30);
+
+      @include md{
+        bottom: rem-calc(20);
+        left: rem-calc(70);
+        height: 52vh;
+
+      }
     }
   }
 }
