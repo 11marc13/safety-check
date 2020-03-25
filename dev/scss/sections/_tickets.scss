@@ -1,5 +1,8 @@
 #tickets {
   margin-bottom: rem-calc(75);
+  @include md{
+    margin-bottom: rem-calc(100);
+  }
 
   p {
     text-align: center;

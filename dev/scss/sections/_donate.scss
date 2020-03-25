@@ -1,5 +1,8 @@
 #donate {
   margin-bottom: rem-calc(65);
+  @include md{
+    margin-bottom: rem-calc(100);
+  }
 
   #donate-button {
     text-align: center;
