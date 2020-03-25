@@ -1,5 +1,8 @@
 #diagnose{
     margin-bottom: rem-calc(175);
+    @include md{
+      margin-bottom: rem-calc(270);
+    }
   p{
     padding-top: rem-calc(10);
   }
@@ -9,6 +12,7 @@
 
     #blob-5 {
       position: relative;
+      z-index: -1;
 
       img {
         position: absolute;
@@ -17,11 +21,18 @@
         left: rem-calc(-10);
         // top: rem-calc(0);
         transform: rotate(-75deg);
+        @include md{
+          transform: rotate(15deg);
+          width: 55%;
+          left: rem-calc(20);
+          bottom: rem-calc(175);
+        }
       }
     }
 
     #blob-6 {
       position: relative;
+      z-index: -1;
 
       img {
         position: absolute;
@@ -29,6 +40,9 @@
         bottom: 10px;
         left: 100px;
         transform: rotate(165deg);
+        @include md{
+          transform: rotate(145deg);
+        }
       }
     }
   }

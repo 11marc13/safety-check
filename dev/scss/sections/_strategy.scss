@@ -1,5 +1,9 @@
 #strategy {
+  position: relative;
   margin-bottom: rem-calc(175);
+  @include md{
+    margin-bottom: rem-calc(220);
+  }
   p{
     padding-top: rem-calc(10);
   }
@@ -7,6 +11,12 @@
   #our-2 {
     opacity: 50%;
     z-index: 6;
+    position: absolute;
+    width: 100%;
+    @include md{
+      left: rem-calc(70);
+      top: rem-calc(-80);
+    }
 
     #top-our-2 {
       position: relative;
@@ -18,8 +28,8 @@
         left: rem-calc(25);
         top: rem-calc(-110);
         color: $header-blue;
+        }
       }
-    }
 
     #middle-our-2 {
       position: relative;
@@ -44,6 +54,7 @@
         left: rem-calc(26);
         top: rem-calc(-100);
         color: $header-light;
+
       }
     }
   }
@@ -53,6 +64,12 @@
   #strat {
     opacity: 50%;
     z-index: 6;
+    position: absolute;
+    width: 100%;
+    @include md{
+      left: rem-calc(160);
+      top: rem-calc(-70);
+    }
 
     #top-strat {
       position: relative;
@@ -94,11 +111,16 @@
     }
   }
 
+  // #strat-copy{
+  //   z-index: 100;
+  // }
+
   #brain-blobs {
     margin-bottom: rem-calc(50);
 
     #blob-6 {
       position: relative;
+      z-index: -1;
 
       img {
         position: absolute;
@@ -107,11 +129,17 @@
         left: rem-calc(30);
         // top: rem-calc(0);
         transform: rotate(75deg);
+        @include md{
+          transform: rotate(90deg);
+          width: 55%;
+          left: rem-calc(60);
+        }
       }
     }
 
     #blob-7 {
       position: relative;
+      z-index: -1;
 
       img {
         position: absolute;
@@ -119,6 +147,11 @@
         bottom: rem-calc(0);
         left: rem-calc(190);
         transform: rotate(-50deg);
+        @include md{
+          transform: rotate(-120deg);
+          width: 45%;
+          left: rem-calc(360);
+        }
       }
     }
   }

@@ -1,6 +1,9 @@
 #line-up {
   margin-bottom: rem-calc(60);
   position: relative;
+  @include md{
+    margin-bottom: rem-calc(100);
+  }
 
   #line {
     opacity: 50%;
