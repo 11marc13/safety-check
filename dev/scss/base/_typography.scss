@@ -1,6 +1,7 @@
 /* =============
     typography
 ============= */
+
 h1 {
   font-family: garage-gothic,sans-serif;
   font-weight: 700;
@@ -8,7 +9,7 @@ h1 {
   font-size: rem-calc(100);
   line-height: rem-calc(0);
   opacity: 42%;
-  @include md{
+  @include md {
     // opacity: 50%;
     font-size: rem-calc(150);
   }
@@ -23,7 +24,7 @@ h2 {
   text-align: center;
   padding-bottom: rem-calc(0);
   margin: 0;
-  @include md{
+  @include md {
     font-size: rem-calc(72);
   }
 }
@@ -39,39 +40,38 @@ h3 {
   padding-bottom: rem-calc(15);
   margin-bottom: rem-calc(0);
   margin-top: rem-calc(25);
-  @include md{
+  @include md {
     font-size: rem-calc(60);
     padding-bottom: rem-calc(25);
-
   }
 }
 
-h4{
+h4 {
   font-family: "DINMittelschriftStd", sans-serif;
   font-weight: 500;
   color: $safety-red;
   font-size: rem-calc(25);
   margin: 15px;
-  @include md{
+  @include md {
     font-size: rem-calc(35);
     padding-top: rem-calc(10);
     padding-bottom: rem-calc(5);
   }
 }
 
-h5{
+h5 {
   font-family: "DINMittelschriftStd", sans-serif;
   font-weight: 550;
   color: $safety-red;
   font-size: rem-calc(20);
   margin: 15px 0;
-  @include md{
+  @include md {
     font-size: rem-calc(30);
     padding-top: rem-calc(5);
   }
 }
 
-h6{
+h6 {
   font-family: garage-gothic,sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -84,8 +84,13 @@ h6{
   margin-bottom: rem-calc(30);
   padding-left: rem-calc(15);
   padding-right: rem-calc(15);
-  // margin-left: rem-calc(15);
-  // margin-right: rem-calc(15);
+  @include md{
+    font-size: rem-calc(50);
+    line-height: rem-calc(60);
+    padding-left: rem-calc(90);
+    padding-right: rem-calc(90);
+    padding-top: rem-calc(50);
+  }
 }
 
 p {
@@ -98,8 +103,7 @@ p {
   padding-right: rem-calc(32);
   // padding-top: rem-calc(10);
   margin-top: 0;
-
-  @include md{
+  @include md {
     font-size: rem-calc(26);
     line-height: rem-calc(38);
     padding-left: rem-calc(70);
@@ -111,20 +115,15 @@ p {
   }
 }
 
-li{
+li {
   font-family: "DINMittelschriftStd", sans-serif;
   font-weight: 550;
   color: $basically-black;
   font-size: rem-calc(16);
   line-height: rem-calc(26);
-  @include md{
+  @include md {
     font-size: rem-calc(23);
     line-height: rem-calc(36);
     // text-align: center;
   }
-
-
-
-
-
 }

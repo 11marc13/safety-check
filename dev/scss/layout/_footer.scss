@@ -2,6 +2,7 @@ footer {
   background-color: $safety-red;
   height: 65vh;
 
+
   #logos {
     display: flex;
     justify-content: space-between;
@@ -9,6 +10,12 @@ footer {
     margin-right: rem-calc(65);
     height: 60vh;
     margin-bottom: rem-calc(-400);
+    @include md{
+      margin-left: rem-calc(130);
+      margin-right: rem-calc(130);
+      margin-bottom: rem-calc(-680);
+      padding-top: 30px;
+    }
 
     #safety-check-logo {
       img {
@@ -28,13 +35,17 @@ footer {
     justify-content: space-between;
     margin-left: rem-calc(95);
     margin-right: rem-calc(95);
+    @include md{
+      margin-left: rem-calc(190);
+      margin-right: rem-calc(190);
+    }
 
     i {
       color: $header-blue;
       font-size: rem-calc(45);
-      // i:hover{
-      //   color:$basically-black;
-      // }
+      @include md{
+        font-size: rem-calc(75);
+      }
     }
   }
 }
