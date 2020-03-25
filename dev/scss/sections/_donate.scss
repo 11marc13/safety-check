@@ -14,6 +14,12 @@
       border: 0px solid $header-red;
       cursor: pointer;
       color: $header-blue;
+
+      @include md{
+        font-size: rem-calc(55);
+        padding: 30px 90px;
+        border-radius: 70px;
       }
     }
   }
+}
