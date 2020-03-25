@@ -1,166 +1,86 @@
-#jersey{
+#jersey {
   margin-bottom: rem-calc(75);
 
-  h2{
+  h2 {
     padding-bottom: rem-calc(15);
+    @include md {
+      padding-bottom: rem-calc(25);
+    }
   }
 
-  #west-blank{
+  button {
+    font-family: "DINMittelschriftStd", sans-serif;
+    font-weight: 500;
+    font-size: rem-calc(20);
+    background-color: $white;
+    color: $safety-red;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 3px solid $header-blue;
+    cursor: pointer;
+  }
+
+  #west-blank {
     text-align: center;
     margin-bottom: rem-calc(48);
     z-index: 10;
 
-    img{
+    img {
       width: 90%;
       margin-bottom: rem-calc(5);
-    }
-
-    #see-more{
-      text-align: center;
-      a{
-        text-decoration: none;
-      }
-
-      .button{
-        background-color: $white;
-        padding: 0px 20px;
-        border-radius: 50px;
-        border: 3px solid $header-blue;
-        cursor: pointer;
-
-        h4{
-          font-size: rem-calc(20);
-          margin-top: rem-calc(10);
-          margin-bottom: rem-calc(10);
-
-
-        }
-        a.button:hover{
-          background-color: $white;
-        }
+      @include md {
+        width: 85%;
       }
     }
   }
 
-
-  #east-blank{
+  #east-blank {
     text-align: center;
     margin-bottom: rem-calc(48);
     z-index: 10;
 
-    img{
+    img {
       width: 90%;
       margin-bottom: rem-calc(5);
-    }
-
-    #see-more{
-      text-align: center;
-      a{
-        text-decoration: none;
-      }
-
-      .button{
-        background-color: $white;
-        padding: 0px 20px;
-        border-radius: 50px;
-        border: 3px solid $header-blue;
-        cursor: pointer;
-
-        h4{
-          font-size: rem-calc(20);
-          margin-top: rem-calc(10);
-          margin-bottom: rem-calc(10);
-
-
-        }
-        a.button:hover{
-          background-color: $white;
-        }
+      @include md {
+        width: 85%;
       }
     }
   }
 
-  #west-back{
+  #west-back {
     text-align: center;
     margin-bottom: rem-calc(48);
     z-index: 10;
-    img{
+
+    img {
       width: 90%;
       margin-bottom: rem-calc(5);
-    }
-
-    #see-more{
-      text-align: center;
-      a{
-        text-decoration: none;
-      }
-
-      .button{
-        background-color: $white;
-        padding: 0px 20px;
-        border-radius: 50px;
-        border: 3px solid $header-blue;
-        cursor: pointer;
-
-        h4{
-          font-size: rem-calc(20);
-          margin-top: rem-calc(10);
-          margin-bottom: rem-calc(10);
-
-
-        }
-        a.button:hover{
-          background-color: $white;
-        }
+      @include md {
+        width: 85%;
       }
     }
   }
 
-  #east-back{
+  #east-back {
     text-align: center;
     margin-bottom: rem-calc(48);
     z-index: 10;
-    img{
+
+    img {
       width: 90%;
       margin-bottom: rem-calc(5);
-    }
-
-    #see-more{
-      text-align: center;
-      a{
-        text-decoration: none;
-      }
-
-      .button{
-        background-color: $white;
-        padding: 0px 20px;
-        border-radius: 50px;
-        border: 3px solid $header-blue;
-        cursor: pointer;
-
-        h4{
-          font-size: rem-calc(20);
-          margin-top: rem-calc(10);
-          margin-bottom: rem-calc(10);
-
-
-        }
-        a.button:hover{
-          background-color: $header-blue;
-          border: 0px solid;
-        }
+      @include md {
+        width: 85%;
       }
     }
   }
-
 
   #brain-blobs {
     margin-bottom: rem-calc(50);
 
-
     #blob-13 {
       position: relative;
-
 
       img {
         position: absolute;
@@ -170,7 +90,6 @@
         bottom: rem-calc(1050);
         transform: rotate(170deg);
         z-index: -1;
-
       }
     }
 
