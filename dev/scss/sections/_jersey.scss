@@ -97,6 +97,11 @@
         bottom: rem-calc(1050);
         transform: rotate(170deg);
         z-index: -1;
+        @include md{
+          bottom: rem-calc(1800);
+          left: rem-calc(200);
+          width: 70%;
+        }
       }
     }
 
@@ -110,6 +115,11 @@
         left: rem-calc(30);
         transform: rotate(100deg);
         z-index: -1;
+        @include md{
+          bottom: rem-calc(1430);
+          left: rem-calc(55);
+          transform: rotate(90deg);
+        }
       }
     }
 
@@ -118,11 +128,14 @@
 
       img {
         position: absolute;
-        width: 80%;
+        width: 75%;
         bottom: rem-calc(550);
         left: rem-calc(0);
         transform: rotate(-30deg);
         z-index: -1;
+        @include md{
+          bottom: rem-calc(990);
+        }
       }
     }
 
@@ -136,6 +149,11 @@
         left: rem-calc(60);
         transform: rotate(130deg);
         z-index: -1;
+        @include md{
+          bottom: rem-calc(500);
+          left: rem-calc(180);
+          transform: rotate(160deg);
+        }
       }
     }
 
@@ -149,6 +167,11 @@
         left: rem-calc(180);
         transform: rotate(-100deg);
         z-index: -1;
+        @include md{
+          bottom: rem-calc(100);
+          left: rem-calc(180);
+          // transform: rotate(160deg);
+        }
       }
     }
   }
