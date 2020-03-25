@@ -1,13 +1,22 @@
 #line-up {
   margin-bottom: rem-calc(60);
+  position: relative;
 
   #line {
     opacity: 50%;
     z-index: 6;
+    position: absolute;
+    width: 100%;
+    top: rem-calc(-90);
+    @include md{
+      top: rem-calc(-140);
+      left: rem-calc(130);
+    }
 
     #top-line {
       position: relative;
       z-index: 5;
+
 
       h1 {
         position: absolute;
@@ -47,6 +56,14 @@
   #up {
     opacity: 50%;
     z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: rem-calc(-70);
+    left: rem-calc(-15);
+    @include md{
+      top: rem-calc(-130);
+      left: rem-calc(190);
+    }
 
     #top-up {
       position: relative;
@@ -90,8 +107,8 @@
   }
 
   h2 {
-    padding-top: rem-calc(90);
-    z-index: 7;
+    // padding-top: rem-calc(90);
+    z-index: 10;
   }
 
   #symptoms {
@@ -111,28 +128,67 @@
     #mem-loss {
       grid-area: mem;
       padding-bottom: rem-calc(40);
+      img{
+        @include md{
+          width: 40%;
+        }
+      }
     }
 
     #dif-control {
       grid-area: dif;
+      @include md{
+        padding-bottom: rem-calc(40);
+      }
+      img{
+        @include md{
+          width: 40%;
+
+        }
+      }
     }
 
     #impaired {
       grid-area: imp;
       padding-bottom: rem-calc(40);
+
+      img{
+        @include md{
+          width: 40%;
+        }
+      }
     }
 
     #aggro {
       grid-area: agg;
+      @include md{
+        padding-bottom: rem-calc(40);
+      }
+      img{
+        @include md{
+          width: 40%;
+        }
+      }
     }
 
     #balance {
       grid-area: bal;
+      img{
+        @include md{
+          width: 40%;
+        }
+      }
     }
 
     #dementia {
       grid-area: dem;
       margin-top: rem-calc(-21);
+      img{
+        @include md{
+          width: 43.5%;
+          margin-top: rem-calc(-10);
+        }
+      }
     }
   }
 }
