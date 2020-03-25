@@ -1,9 +1,35 @@
 #donate{
   margin-bottom: rem-calc(65);
 
-  h2{
-    // padding-bottom: rem-calc(10);
-  }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   // #donate-form{
   //   text-align: center;
@@ -23,28 +49,28 @@
   //
   // }
 
-  #donate-button{
-    text-align: center;
-    a{
-      text-decoration: none;
-    }
-
-    .button{
-      background-color: $safety-red;
-      padding: 10px 75px;
-      border-radius: 50px;
-      border: 0px solid $header-red;
-      cursor: pointer;
-
-      h2{
-        color:$header-blue;
-        font-size: rem-calc(50);
-
-
-      }
-      a.button:hover{
-        background-color: $white;
-      }
+  // #donate-button{
+  //   text-align: center;
+  //   a{
+  //     text-decoration: none;
+  //   }
+  //
+  //   .button{
+  //     background-color: $safety-red;
+  //     padding: 10px 75px;
+  //     border-radius: 50px;
+  //     border: 0px solid $header-red;
+  //     cursor: pointer;
+  //
+  //     h2{
+  //       color:$header-blue;
+  //       font-size: rem-calc(50);
+  //
+  //
+  //     }
+  //     a.button:hover{
+  //       background-color: $white;
+  //     }
 
       // .button:hover {
       //   background-color: $basically-black;
@@ -56,17 +82,3 @@
       //  h2:hover {
       //   color: $safety-red;
       // }
-
-
-
-
-
-    }
-  }
-
-
-
-
-
-
-}
