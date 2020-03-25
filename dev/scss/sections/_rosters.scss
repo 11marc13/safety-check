@@ -1,5 +1,6 @@
 #rosters {
   margin-bottom: rem-calc(600);
+  position: relative;
 
   h2 {
     padding-bottom: rem-calc(10);
@@ -8,6 +9,12 @@
   #our-3 {
     opacity: 50%;
     z-index: 6;
+    position: absolute;
+    width: 100%;
+    @include md{
+      left: rem-calc(90);
+      top: rem-calc(-70);
+    }
 
     #top-our-3 {
       position: relative;
@@ -52,6 +59,12 @@
   #players {
     opacity: 50%;
     z-index: 6;
+    position: absolute;
+    width: 100%;
+    @include md{
+      left: rem-calc(160);
+      top: rem-calc(-70);
+    }
 
     #top-players {
       position: relative;
@@ -97,6 +110,10 @@
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 50px;
+    @include md{
+      margin-left: rem-calc(110);
+      margin-right: rem-calc(110);
+    }
 
     h3 {
       text-align: left;
@@ -104,6 +121,9 @@
       // padding-top: rem-calc(11);
       padding-bottom: rem-calc(21);
       color: $header-blue;
+      @include md{
+        text-align: center;
+      }
     }
 
     .accordion {
@@ -115,6 +135,9 @@
       outline: none;
       transition: 1s;
       border-radius: 20px;
+      @include md{
+        // width: 80%;
+      }
     }
     // .active, .accordion:hover {
     //   background-color: $safety-red;
@@ -159,6 +182,9 @@
       // padding-top: rem-calc(11);
       padding-bottom: rem-calc(21);
       color: $safety-red;
+      @include md{
+        text-align: center;
+      }
     }
 
     .accordion {
