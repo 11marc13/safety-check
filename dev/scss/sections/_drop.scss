@@ -1,5 +1,9 @@
 #puck-drop {
   margin-bottom: rem-calc(175);
+  position: relative;
+  @include md{
+    margin-bottom: rem-calc(260);
+  }
 
   p {
     padding-top: rem-calc(10);
@@ -8,6 +12,12 @@
   #puck {
     opacity: 50%;
     z-index: 6;
+    position: absolute;
+    width: 100%;
+    @include md{
+      left: rem-calc(70);
+      top: rem-calc(-45);
+    }
 
     #top-puck {
       position: relative;
@@ -52,6 +62,12 @@
   #drop {
     opacity: 50%;
     z-index: 6;
+    position: absolute;
+    width: 100%;
+    @include md{
+      left: rem-calc(170);
+      top: rem-calc(-45);
+    }
 
     #top-drop {
       position: relative;
@@ -98,6 +114,7 @@
 
     #blob-8 {
       position: relative;
+      z-index: -1;
 
       img {
         position: absolute;
@@ -106,11 +123,17 @@
         left: rem-calc(30);
         // top: rem-calc(0);
         transform: rotate(275deg);
+        @include md{
+          transform: rotate(-170deg);
+          left: rem-calc(300);
+          bottom: rem-calc(-40);
+        }
       }
     }
 
     #blob-9 {
       position: relative;
+      z-index: -1;
 
       img {
         position: absolute;
@@ -118,6 +141,10 @@
         bottom: rem-calc(0);
         left: rem-calc(160);
         transform: rotate(110deg);
+        @include md{
+          transform: rotate(50deg);
+          left: rem-calc(120);
+        }
       }
     }
   }
