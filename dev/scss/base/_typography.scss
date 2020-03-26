@@ -97,6 +97,10 @@ h6 {
     padding-right: rem-calc(90);
     padding-top: rem-calc(50);
   }
+  @include lg{
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 p {

@@ -1,6 +1,9 @@
 footer {
   background-color: $safety-red;
   height: 65vh;
+  @include lg{
+    height: 80vh;
+  }
 
 
   #logos {
@@ -16,20 +19,30 @@ footer {
       margin-bottom: rem-calc(-680);
       padding-top: 30px;
     }
+    @include lg{
+      margin-bottom: rem-calc(-450);
+      margin-left: rem-calc(400);
+      margin-right: rem-calc(400);
+    }
 
     #safety-check-logo {
       img {
         height: 17%;
-      }
-    }
-
-    #bu-logo {
-      img {
-        height: 17%;
+        @include lg{
+          height: 25%;
       }
     }
   }
 
+    #bu-logo {
+      img {
+        height: 17%;
+        @include lg{
+          height: 25%;
+      }
+    }
+  }
+}
   #social-icons {
     display: flex;
     justify-content: space-between;
@@ -38,6 +51,10 @@ footer {
     @include md{
       margin-left: rem-calc(190);
       margin-right: rem-calc(190);
+    }
+    @include lg{
+      margin-left: rem-calc(420);
+      margin-right: rem-calc(420);
     }
 
     i {
