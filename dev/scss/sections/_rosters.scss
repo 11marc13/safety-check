@@ -174,7 +174,7 @@
         display: block;
         position: absolute;
         width: 52%;
-        left: rem-calc(-60);
+        left: rem-calc(-100);
         top: rem-calc(20);
       }
     }
@@ -189,9 +189,9 @@
         top: rem-calc(100);
       }
       @include lg{
-        width: 55%;
-        left: rem-calc(-30);
-        top: rem-calc(200);
+        width: 53%;
+        left: rem-calc(-40);
+        top: rem-calc(180);
       }
     }
 
@@ -200,15 +200,17 @@
       width: 110%;
       top: rem-calc(180);
       left: rem-calc(-110);
+
       @include md{
         width: 95%;
         left: rem-calc(-100);
         top: rem-calc(200);
       }
       @include lg{
-        width: 70%;
-        left: rem-calc(-20);
+        width: 60%;
+        left: rem-calc(-30);
         top: rem-calc(275);
+
       }
     }
   }
@@ -248,7 +250,7 @@
     .accordion {
       background-color: $safety-red;
       cursor: pointer;
-      width: 50%;
+      width: 100%;
       text-align: left;
       border: solid $safety-red 0;
       outline: none;
@@ -256,6 +258,9 @@
       border-radius: 20px;
       @include md{
         // width: 80%;
+      }
+      @include lg{
+        width: 50%;
       }
     }
     // .active, .accordion:hover {
@@ -303,7 +308,8 @@
       margin-bottom: rem-calc(70);
     }
     @include lg{
-      display: none;
+      margin-right: rem-calc(67);
+      margin-top: rem-calc(550);
     }
 
     h3 {
@@ -316,8 +322,10 @@
         text-align: center;
         padding: 0;
         margin-bottom: 25px;
-        // margin-top: rem-calc(20);
-        // margin-bottom: rem-calc(20);
+      }
+      @include lg{
+        text-align: right;
+        padding-right: rem-calc(10);
       }
     }
 
@@ -330,6 +338,11 @@
       outline: none;
       transition: 1s;
       border-radius: 20px;
+      @include lg{
+        width: 50%;
+        margin-left: rem-calc(547);
+              z-index: 1000;
+      }
     }
     // .active, .accordion:hover {
     //   background-color: $safety-red;
@@ -350,6 +363,9 @@
       margin-bottom: 0;
       @include md{
         margin-bottom: rem-calc(30);
+      }
+      @include lg{
+        margin-left: rem-calc(547);
       }
 
       ul {
