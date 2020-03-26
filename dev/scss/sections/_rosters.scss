@@ -4,9 +4,16 @@
   @include md{
     margin-bottom: rem-calc(650);
   }
+  @include lg{
+    margin-bottom: rem-calc(1050);
+  }
 
   h2 {
     padding-bottom: rem-calc(10);
+    @include lg{
+      text-align: left;
+      margin-left: rem-calc(67);
+    }
   }
 
   #our-3 {
@@ -108,6 +115,104 @@
       }
     }
   }
+  #east-players {
+    position: relative;
+    z-index: 9;
+
+    #e-lowest-opacity {
+      display: none;
+      @include lg{
+        display: block;
+        position: absolute;
+        width: 30%;
+        left: rem-calc(900);
+        bottom: rem-calc(-240);
+      }
+    }
+
+    #e-mid-opacity {
+      display: none;
+      @include md{
+        display: block;
+        position: absolute;
+        width: 60%;
+        left: rem-calc(370);
+      }
+      @include lg{
+        width: 40%;
+        left: rem-calc(700);
+        top: rem-calc(-190);
+      }
+    }
+
+    #e-full-opacity {
+      position: absolute;
+      width: 90%;
+      top: rem-calc(80);
+      left: rem-calc(125);
+      @include md{
+        width: 75%;
+        left: rem-calc(270);
+        top: rem-calc(100);
+      }
+      @include lg{
+        width: 50%;
+        left: rem-calc(580);
+        top: rem-calc(-100);
+      }
+    }
+  }
+
+
+  #west-players {
+    position: relative;
+    z-index: 10;
+
+    #w-lowest-opacity {
+      display: none;
+      @include lg{
+        display: block;
+        position: absolute;
+        width: 52%;
+        left: rem-calc(-60);
+        top: rem-calc(20);
+      }
+    }
+
+    #w-mid-opacity {
+      display: none;
+      @include md{
+        display: block;
+        position: absolute;
+        width: 75%;
+        left: rem-calc(-60);
+        top: rem-calc(100);
+      }
+      @include lg{
+        width: 55%;
+        left: rem-calc(-30);
+        top: rem-calc(200);
+      }
+    }
+
+    #w-full-opacity {
+      position: absolute;
+      width: 110%;
+      top: rem-calc(180);
+      left: rem-calc(-110);
+      @include md{
+        width: 95%;
+        left: rem-calc(-100);
+        top: rem-calc(200);
+      }
+      @include lg{
+        width: 70%;
+        left: rem-calc(-20);
+        top: rem-calc(275);
+      }
+    }
+  }
+
 
   #east {
     margin-left: 30px;
@@ -117,6 +222,10 @@
       margin-left: rem-calc(120);
       margin-right: rem-calc(120);
       margin-bottom: rem-calc(70);
+    }
+    @include lg{
+      margin-left: rem-calc(67);
+
     }
 
     h3 {
@@ -129,15 +238,17 @@
         text-align: center;
         padding: 0;
         margin-bottom: 25px;
-        // margin-top: rem-calc(20);
-        // margin-bottom: rem-calc(20);
+      }
+      @include lg{
+        text-align: left;
+        padding-left: rem-calc(10);
       }
     }
 
     .accordion {
       background-color: $safety-red;
       cursor: pointer;
-      width: 100%;
+      width: 50%;
       text-align: left;
       border: solid $safety-red 0;
       outline: none;
@@ -163,6 +274,9 @@
       border-radius: 20px;
       padding-bottom: 10px;
       margin-top: -50px;
+      @include lg{
+          margin-right: rem-calc(547);
+      }
 
       ul {
         display: grid;
@@ -187,6 +301,9 @@
       margin-left: rem-calc(120);
       margin-right: rem-calc(120);
       margin-bottom: rem-calc(70);
+    }
+    @include lg{
+      display: none;
     }
 
     h3 {
@@ -257,71 +374,15 @@
     }
   }
 
-  #east-players {
-    position: relative;
-    z-index: 9;
 
-    #e-lowest-opacity {
-      display: none;
-    }
 
-    #e-mid-opacity {
-      display: none;
-      @include md{
-        display: block;
-        position: absolute;
-        width: 60%;
-        left: rem-calc(370);
-      }
-    }
 
-    #e-full-opacity {
-      position: absolute;
-      width: 90%;
-      top: rem-calc(80);
-      left: rem-calc(125);
-      @include md{
-        width: 75%;
-        left: rem-calc(270);
-        top: rem-calc(100);
-      }
-    }
-  }
-
-  #west-players {
-    position: relative;
-    z-index: 10;
-
-    #w-lowest-opacity {
-      display: none;
-    }
-
-    #w-mid-opacity {
-      display: none;
-      @include md{
-        display: block;
-        position: absolute;
-        width: 75%;
-        left: rem-calc(-60);
-        top: rem-calc(100);
-      }
-    }
-
-    #w-full-opacity {
-      position: absolute;
-      width: 110%;
-      top: rem-calc(180);
-      left: rem-calc(-110);
-      @include md{
-        width: 95%;
-        left: rem-calc(-100);
-        top: rem-calc(200);
-      }
-    }
-  }
 
   #brain-blobs {
     margin-bottom: rem-calc(50);
+    @include lg{
+      display: none;
+    }
 
     #blob-10 {
       position: relative;
