@@ -1,11 +1,25 @@
 #jersey {
   margin-bottom: rem-calc(75);
 
+
   h2 {
     padding-bottom: rem-calc(15);
     @include md {
       padding-bottom: rem-calc(25);
     }
+  }
+
+  #buy{
+    @include lg{
+      display: grid;
+      grid-template-columns: repeat (2,1fr);
+      grid-template-rows: repeat (2,1fr);
+      grid-template-areas:
+      "westb eastb"
+      "westc eastc";
+    }
+
+
   }
 
   button {
