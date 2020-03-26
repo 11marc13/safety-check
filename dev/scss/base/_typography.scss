@@ -13,6 +13,9 @@ h1 {
     // opacity: 50%;
     font-size: rem-calc(150);
   }
+  @include lg{
+    font-size: rem-calc(180);
+  }
 }
 
 h2 {
@@ -26,6 +29,9 @@ h2 {
   margin: 0;
   @include md {
     font-size: rem-calc(72);
+  }
+  @include lg{
+    font-size: rem-calc(80);
   }
 }
 
@@ -108,6 +114,13 @@ p {
     line-height: rem-calc(38);
     padding-left: rem-calc(70);
     padding-right: rem-calc(70);
+  }
+  @include lg{
+    line-height: rem-calc(42);
+   padding-left: rem-calc(0);
+   padding-right: rem-calc(0);
+   margin-left: rem-calc(160);
+   margin-right: rem-calc(160);
   }
 
   span {

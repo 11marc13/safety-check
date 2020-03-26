@@ -9,6 +9,9 @@
   @include md{
     margin-bottom: rem-calc(-100);
   }
+  @include lg{
+    margin-bottom: rem-calc(0);
+  }
 
   #our {
     position: absolute;
@@ -19,6 +22,10 @@
     @include md{
       left: rem-calc(80);
       top: rem-calc(60);
+    }
+    @include lg{
+      left: rem-calc(360);
+      top: rem-calc(70);
     }
 
 
@@ -73,6 +80,10 @@
 
     @include md{
       left: rem-calc(300);
+    }
+    @include lg{
+      left: rem-calc(635);
+      top: rem-calc(90);
     }
 
     #top-oppo {
