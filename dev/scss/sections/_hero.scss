@@ -32,7 +32,12 @@
         bottom: rem-calc(20);
         left: rem-calc(70);
         height: 52vh;
+      }
 
+      @include lg{
+        height: 130vh;
+        bottom: rem-calc(100);
+        left: rem-calc(150);
       }
     }
   }
