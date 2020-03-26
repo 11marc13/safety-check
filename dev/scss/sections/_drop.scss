@@ -18,6 +18,10 @@
       left: rem-calc(70);
       top: rem-calc(-45);
     }
+    @include lg{
+      left: rem-calc(300);
+      top: rem-calc(-85);
+    }
 
     #top-puck {
       position: relative;
@@ -68,6 +72,10 @@
       left: rem-calc(170);
       top: rem-calc(-45);
     }
+    @include lg{
+      left: rem-calc(470);
+      top: rem-calc(-75);
+    }
 
     #top-drop {
       position: relative;
@@ -111,10 +119,6 @@
 
   #brain-blobs {
     margin-bottom: rem-calc(50);
-    @include lg{
-      display: none
-    }
-
     #blob-8 {
       position: relative;
       z-index: -1;
@@ -129,6 +133,11 @@
         @include md{
           transform: rotate(-170deg);
           left: rem-calc(300);
+          bottom: rem-calc(-40);
+        }
+        @include lg{
+          width: 25%;
+          left: rem-calc(760);
           bottom: rem-calc(-40);
         }
       }
@@ -147,6 +156,11 @@
         @include md{
           transform: rotate(50deg);
           left: rem-calc(120);
+        }
+        @include lg{
+          width: 35%;
+          left: rem-calc(350);
+          bottom: rem-calc(-100);
         }
       }
     }
