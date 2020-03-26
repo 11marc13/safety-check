@@ -31,7 +31,7 @@ h2 {
     font-size: rem-calc(72);
   }
   @include lg{
-    font-size: rem-calc(80);
+    font-size: rem-calc(75);
   }
 }
 
@@ -116,6 +116,7 @@ p {
     padding-right: rem-calc(70);
   }
   @include lg{
+    font-size: rem-calc(23);
     line-height: rem-calc(42);
    padding-left: rem-calc(0);
    padding-right: rem-calc(0);
