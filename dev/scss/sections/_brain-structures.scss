@@ -9,6 +9,7 @@
     grid-template-areas: "normal bad";
     margin-left: rem-calc(10);
     margin-right: rem-calc(10);
+    margin-bottom: rem-calc(300);
   }
 
   #healthy {
@@ -49,8 +50,6 @@
       }
     }
   }
-
-
 
 
   #brain-blobs {

@@ -4,6 +4,10 @@
   @include md{
     margin-bottom: rem-calc(100);
   }
+  @include lg{
+    margin-bottom: rem-calc(150);
+  }
+
 
   #line {
     opacity: 50%;
@@ -14,6 +18,10 @@
     @include md{
       top: rem-calc(-140);
       left: rem-calc(130);
+    }
+    @include lg{
+      top: rem-calc(-170);
+      left: rem-calc(100);
     }
 
     #top-line {
@@ -67,6 +75,10 @@
       top: rem-calc(-130);
       left: rem-calc(190);
     }
+    @include lg{
+      top: rem-calc(-160);
+      left: rem-calc(200);
+    }
 
     #top-up {
       position: relative;
@@ -112,6 +124,10 @@
   h2 {
     // padding-top: rem-calc(90);
     z-index: 10;
+    @include lg{
+      text-align: left;
+      margin-left: rem-calc(67);
+    }
   }
 
   #symptoms {
@@ -123,9 +139,22 @@
      "bal dem";
     padding-top: rem-calc(40);
     text-align: center;
+    @include lg{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(2,1fr);
+      grid-template-areas:
+      "mem dif imp"
+      "agg bal dem"
+    }
 
     p {
       padding-top: rem-calc(7);
+      @include lg{
+        padding-top: rem-calc(10);
+        margin-left: rem-calc(0);
+        margin-right: rem-calc(0);
+      }
     }
 
     #mem-loss {
