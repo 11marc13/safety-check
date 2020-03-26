@@ -116,6 +116,11 @@
           left: rem-calc(200);
           width: 70%;
         }
+        @include lg{
+          width: 40%;
+          bottom: rem-calc(700);
+          transform: rotate(260deg);
+        }
       }
     }
 
@@ -134,6 +139,12 @@
           left: rem-calc(55);
           transform: rotate(90deg);
         }
+        @include lg{
+          width: 30%;
+          bottom: rem-calc(410);
+          transform: rotate(160deg);
+          left: rem-calc(370);
+        }
       }
     }
 
@@ -149,6 +160,12 @@
         z-index: -1;
         @include md{
           bottom: rem-calc(990);
+        }
+        @include lg{
+          width: 35%;
+          bottom: rem-calc(110);
+          transform: rotate(90deg);
+          left: rem-calc(530);
         }
       }
     }
@@ -168,6 +185,9 @@
           left: rem-calc(180);
           transform: rotate(160deg);
         }
+        @include lg{
+          display: none;
+        }
       }
     }
 
@@ -185,6 +205,9 @@
           bottom: rem-calc(100);
           left: rem-calc(180);
           // transform: rotate(160deg);
+        }
+        @include lg{
+          display: none;
         }
       }
     }
