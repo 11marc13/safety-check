@@ -27,6 +27,11 @@
           left: rem-calc(20);
           bottom: rem-calc(175);
         }
+        @include lg{
+          width: 30%;
+          left: rem-calc(420);
+          bottom: rem-calc(-100);
+        }
       }
     }
 
@@ -42,6 +47,10 @@
         transform: rotate(165deg);
         @include md{
           transform: rotate(145deg);
+        }
+        @include lg{
+          width: 37%;
+          transform: rotate(-170deg);
         }
       }
     }
