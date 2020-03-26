@@ -111,6 +111,9 @@
 
   #brain-blobs {
     margin-bottom: rem-calc(50);
+    @include lg{
+      display: none
+    }
 
     #blob-8 {
       position: relative;
